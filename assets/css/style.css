@@ -115,4 +115,30 @@ padding-top: 10px;
     padding-right: 20px;
   }
 
+.plan_payment{
+    width: 40%;
+    
+    
+    display: flex;
+    margin-top: 70px;
+    .basic, .team, .agency{
+        width: 20%;
+        border: 1px solid black;
+    }
+    i{
+        height: 20px;
+        width: 30px;
+    }
+    
+
+.single{
+    text-align: center;
+    padding-top: 3px;
+    border-bottom: 2px solid black;
+}
+.professional{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+}
 
