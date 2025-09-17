@@ -177,19 +177,23 @@ nav {
             margin-bottom: 20px;
         }
 
-        .days-30,
-        .other {
-
+        .days-30, p, strong {
             margin-left: 15px;
-
-
-
-
         }
-
-
-
+        ul{
+            list-style: none;
+            margin-top: 20px;
+            
+        }
+        .icon{
+            color: blue;
+        }
+       
 
 
     }
 }
+
+
+
+
