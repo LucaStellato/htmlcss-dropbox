@@ -212,7 +212,7 @@ nav {
     border: 1px solid black;
     margin-top: 40px;
     width: 50%;
-    margin-bottom: 230px;
+    margin-bottom: 100px;
     .adressed_to{
         border: 1px solid black;
         text-align: center;
@@ -225,6 +225,16 @@ nav {
         margin-left: 3px;
     
         
+    }
+
+}
+
+.partner_dropbox{
+    display: flex;
+    width: 50%; 
+    border: 1px solid black;
+    .find_partner{
+        border: 1px solid black;
     }
 
 }
