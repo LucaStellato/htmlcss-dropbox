@@ -1,0 +1,24 @@
+nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+    ul{
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+        margin-right: ;
+    }
+    button{
+        color: white;
+        background-color: #0061fe;
+        border:0;
+       padding-left: 12px;
+       padding-right: 12px;
+       height: 30px;
+       
+    }
+    .margin-right{
+        margin-right: 760px;
+    }
+     
+}
