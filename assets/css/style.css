@@ -177,23 +177,54 @@ nav {
             margin-bottom: 20px;
         }
 
-        .days-30, p, strong {
+        .days-30,
+        p,
+        strong {
             margin-left: 15px;
         }
-        ul{
+
+        ul {
             list-style: none;
             margin-top: 20px;
-            
+
         }
-        .icon{
+
+        .icon {
             color: blue;
         }
-       
+
 
 
     }
+
+
+
+
+
+
+
+
+
 }
 
+.customized_solution {
+    
+    border: 1px solid black;
+    margin-top: 40px;
+    width: 50%;
+    margin-bottom: 230px;
+    .adressed_to{
+        border: 1px solid black;
+        text-align: center;
+    }
+    .sales_office{
+        display: flex;
+        width: 90%;
+    }
+    .enterprise{
+        margin-left: 3px;
+    
+        
+    }
 
-
-
+}
