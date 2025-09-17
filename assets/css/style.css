@@ -233,8 +233,26 @@ nav {
     display: flex;
     width: 50%; 
     border: 1px solid black;
+    margin-bottom: 50px;
     .find_partner{
         border: 1px solid black;
     }
 
+}
+.dropbox_business{
+    width: 54%; 
+    margin-bottom: 50px;
+.row{
+  margin-top: 10px;
+  span{
+    margin-right: 84px;
+  }
+}
+}
+.adv{
+    width: 32%;
+    margin-left: 275px;
+   h2{
+    margin-bottom: 40px;
+   }
 }
