@@ -416,6 +416,12 @@ nav {
 
     h2 {
         margin-bottom: 40px;
+        margin-top:50px;
+        margin-left: 110px;
+        font-size: 30px;
+    }
+    a{
+          margin-left: 110px;
     }
 }
 
