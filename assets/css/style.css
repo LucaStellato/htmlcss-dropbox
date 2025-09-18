@@ -193,7 +193,18 @@ nav {
             color: blue;
         }
 
-        
+        .info{
+            display:flex;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .user{
+            margin: 0;
+        }
+        .person{
+            margin-left: 0;
+        }
+  
 
     }
 
