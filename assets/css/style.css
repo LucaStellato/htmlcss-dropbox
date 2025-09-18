@@ -127,7 +127,7 @@ nav {
     padding-right: 20px;
 }
 
-.plan_payment {
+.plan_payment{
     width: 70%;
 
 
@@ -244,7 +244,7 @@ nav {
 
     border: 1px solid black;
     margin-top: 40px;
-    width: 50%;
+    width: 62%;
     margin-bottom: 100px;
 
     .adressed_to {
@@ -255,10 +255,14 @@ nav {
     .sales_office {
         display: flex;
         width: 90%;
+      margin: 0 auto;
     }
 
-    .enterprise {
+    .support {
         margin-left: 3px;
+       h2{
+        padding-bottom: 20px;
+       }
 
 
     }
