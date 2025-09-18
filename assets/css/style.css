@@ -9,15 +9,20 @@
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding-bottom: 20px;
     padding-top: 10px;
+    padding-left: 0;
+ 
 
     ul {
         list-style: none;
         display: flex;
         gap: 1rem;
+        
+        
+
 
     }
 
@@ -67,15 +72,21 @@ nav {
     margin: 0 auto;
     padding-top: 50px;
     p{
-        margin-bottom: 30px;
+        margin-bottom: 60px;
         padding-right: 70px;
         font-size: 25px;
+
+    }
+    span{
+       font-size: 70px;
+       
     }
     
 
     button {
         color: white;
         background-color: #0061fe;
+
         border: 0;
         padding-bottom: 10px;
         padding-top: 10px;
@@ -101,6 +112,7 @@ nav {
 .page {
     margin-bottom: 160px;
     background-color: #b4d0e6;
+    
     h1{
         font-size: 120px;
     }
@@ -108,10 +120,11 @@ nav {
 }
 
 .business {
-    margin-left: 450px;
+    margin-left: 300px;
 
     h1 {
         margin-bottom: 20px;
+        font-size: 60px;
     }
 
 }
@@ -123,6 +136,7 @@ nav {
 
 .plan_payment {
     width: 70%;
+    
 
 
     display: flex;
@@ -259,7 +273,7 @@ nav {
     margin-bottom: 100px;
 
     .adressed_to {
-        border: 1px solid black;
+       border-bottom: 1px solid black;
         text-align: center;
     }
 
@@ -316,10 +330,17 @@ nav {
 
     .find_partner {
        width:70%;
-       text-align: center;
+        padding-left: 40px;
         padding-right: 20px;
+        padding-top: 70px;
         p{
-        margin-top: 20px;
+        margin-top: 30px;
+       }
+       h3{
+        font-size: 40px;
+       }
+       p{
+        font-size: 18px;
        }
     
     }
