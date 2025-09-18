@@ -137,7 +137,7 @@ nav {
     .basic,
     .ct_advanced,
     .agency {
-        width: 30%;
+        width: 20%;
         border: 1px solid black;
     }
 
@@ -220,10 +220,11 @@ nav {
             }
            
         }
-        .transfert{
+        .offline, .transfert, .storage_space, .member, .roles{
             margin: 0;
             
         }
+        
 
 
     }
