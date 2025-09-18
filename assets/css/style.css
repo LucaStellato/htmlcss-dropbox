@@ -288,7 +288,7 @@ nav {
 
     border: 1px solid black;
     margin-top: 40px;
-    width: 62%;
+    width: 69%;
     margin-bottom: 100px;
 
     .adressed_to {
@@ -298,12 +298,12 @@ nav {
 
     .sales_office {
         display: flex;
-        width: 90%;
-        margin: 0 auto;
+        width: 100%;
+        margin: auto;
     }
 
     .support {
-        margin-left: 3px;
+        margin-left: 30px;
 
         h2 {
             padding-bottom: 20px;
@@ -333,6 +333,7 @@ nav {
         margin-bottom: 20px;
         margin-top: 20px;
         width: 280px;
+        margin-right: 10px;
 
     }
 }
@@ -413,7 +414,7 @@ nav {
 
     }
     h1{
-        margin-left: 180px;
+        margin-left: 100px;
         
     }
 }
