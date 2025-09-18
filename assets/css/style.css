@@ -135,7 +135,7 @@ nav {
     margin-top: 70px;
 
     .basic,
-    .team,
+    .ct_advanced,
     .agency {
         width: 30%;
         border: 1px solid black;
@@ -147,7 +147,7 @@ nav {
     }
 
 
-    .single {
+    .single, .team{
         text-align: center;
         padding-top: 3px;
         border-bottom: 2px solid black;
@@ -218,6 +218,12 @@ nav {
         .transfert{
             margin: 0;
             
+        }
+        .offline{
+            margin:0;
+        }
+        .icon{
+            margin: 0;
         }
 
     }
