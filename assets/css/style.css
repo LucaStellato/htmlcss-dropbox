@@ -135,7 +135,7 @@ nav {
     background-color: #b4d0e6;
 
     h1 {
-        font-size: 120px;
+        font-size: 110px;
     }
 
 }
@@ -170,7 +170,7 @@ nav {
     .ct_advanced,
     .ct_enterprise {
         width: 30%;
-        border: 1px solid black;
+        border: 1px solid #dedee1;
     }
 
     i {
@@ -184,7 +184,7 @@ nav {
     .agency {
         text-align: center;
         padding-top: 3px;
-        border-bottom: 2px solid black;
+        border-bottom: 1px solid #dedee1;
     }
 
     
@@ -286,13 +286,13 @@ nav {
 }
 .customized_solution {
 
-    border: 1px solid black;
+    border: 1px solid #dedee1;
     margin-top: 40px;
     width: 69%;
     margin-bottom: 100px;
 
     .adressed_to {
-        border-bottom: 1px solid black;
+        border-bottom: 1px solid #dedee1;
         text-align: center;
     }
 
@@ -306,12 +306,14 @@ nav {
         margin-left: 30px;
 
         h2 {
+            padding-top: 10px;
             padding-bottom: 20px;
         }
 
         p {
             margin-top: 40px;
             margin-bottom: 20px;
+            
         }
 
 
