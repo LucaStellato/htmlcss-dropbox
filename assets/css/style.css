@@ -33,14 +33,20 @@ nav {
         padding-left: 12px;
         padding-right: 12px;
         height: 30px;
+        margin-left: 12px;
 
     }
 
-    .margin-right {
-        margin-right: 760px;
-    }
+    
     div{
         display: flex;
+        margin: none;
+        margin-left: 20px;
+       align-items: center;
+    
+    }
+    .right{
+        margin-right: 6px;
     }
 
 }
