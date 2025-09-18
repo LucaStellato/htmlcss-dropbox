@@ -153,7 +153,7 @@ nav {
         border-bottom: 2px solid black;
     }
 
-    .professional, .advanced{
+    .professional, .advanced, .enterprise{
         margin-top: 20px;
         margin-left: 10px;
 
@@ -179,7 +179,8 @@ nav {
 
         .days-30,
         p,
-        strong {
+        strong,
+        .contact_us {
             margin-left: 15px;
         }
 
@@ -220,7 +221,7 @@ nav {
             }
            
         }
-        .offline, .transfert, .storage_space, .member, .roles{
+        .offline, .transfert, .storage_space, .member, .roles, .assistance, .customization{
             margin: 0;
             
         }
