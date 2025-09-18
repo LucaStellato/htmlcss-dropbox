@@ -3,6 +3,9 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: sans-serif;
+}
 
 
 
@@ -37,22 +40,23 @@ nav {
 
     }
 
-    
-    div{
+
+    div {
         display: flex;
         margin: none;
         margin-left: 20px;
-       align-items: center;
-    
+        align-items: center;
+
     }
-    .right{
+
+    .right {
         margin-right: 6px;
     }
 
 }
 
 .container {
-    width: 70%;
+    width: 60%;
     margin: auto;
     position: relative;
 
@@ -88,8 +92,7 @@ nav {
     padding-top: 50px;
 
     p {
-        margin-bottom: 60px;
-        padding-right: 70px;
+        margin-bottom: 20px;
         font-size: 25px;
 
     }
@@ -118,12 +121,23 @@ nav {
 
 
 .box {
-    width: 70%;
+    width: 50%;
     margin-top: 50px;
+    position: relative;
+
+
+
+
+
 
     img {
-        max-width: 70%;
+
+        width: 140%;
         position: absolute;
+
+
+
+
     }
 
 
@@ -135,7 +149,7 @@ nav {
     background-color: #b4d0e6;
 
     h1 {
-        font-size: 110px;
+        font-size: 80px;
     }
 
 }
@@ -187,7 +201,7 @@ nav {
         border-bottom: 1px solid #dedee1;
     }
 
-    
+
     .professional,
     .advanced,
     .enterprise {
@@ -203,7 +217,7 @@ nav {
             margin-bottom: 33px;
         }
 
-        
+
         button {
             color: white;
             background-color: #0061fe;
@@ -215,7 +229,7 @@ nav {
             margin-bottom: 20px;
         }
 
-       
+
         .days-30,
         p,
         strong,
@@ -223,7 +237,7 @@ nav {
             margin-left: 15px;
         }
 
-        
+
         ul {
             list-style: none;
             margin-top: 20px;
@@ -284,6 +298,7 @@ nav {
     }
 
 }
+
 .customized_solution {
 
     border: 1px solid #dedee1;
@@ -313,7 +328,7 @@ nav {
         p {
             margin-top: 40px;
             margin-bottom: 20px;
-            
+
         }
 
 
@@ -372,7 +387,8 @@ nav {
 
         button {
             background-color: white;
-            color: grey;
+            color: #dedee1;
+            border: 1px solid #dedee1;
             padding-top: 10px;
             padding-bottom: 10px;
             font-size: 18px;
@@ -390,34 +406,38 @@ nav {
     margin: 0 auto;
     padding-left: 80px;
     margin-top: 120px;
-   
+
 
     .row {
         margin-top: 10px;
         display: flex;
 
-        
-        img{
+
+        img {
             width: 100%;
         }
-        strong{
+
+        strong {
             font-size: 20px;
         }
-        div{
+
+        div {
             width: 20%;
             margin-bottom: 30px;
-            p{
+
+            p {
                 margin-top: 20px;
                 font-size: 20px;
             }
-          
-          
+
+
         }
 
     }
-    h1{
+
+    h1 {
         margin-left: 100px;
-        
+
     }
 }
 
@@ -428,12 +448,13 @@ nav {
 
     h2 {
         margin-bottom: 40px;
-        margin-top:80px;
+        margin-top: 80px;
         margin-left: 200px;
         font-size: 30px;
     }
-    a{
-          margin-left: 200px;
+
+    a {
+        margin-left: 200px;
     }
 }
 
