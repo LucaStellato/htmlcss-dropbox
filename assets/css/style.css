@@ -38,9 +38,8 @@ nav {
 }
 
 .container {
-    background-color: #b4d0e6;
-    display: flex;
-    height: 600px;
+ width: 70%;
+ margin: auto;
 
 
 
@@ -51,9 +50,7 @@ nav {
 
 .try_free {
 
-    width: 70%;
-    margin: auto;
-    text-align: center;
+  display: flex;
 
     h1 {
         padding-bottom: 100px;
@@ -64,52 +61,49 @@ nav {
 
 }
 
-.box {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
-
-    .sponsor {
-        display: flex;
-        width: 70%;
-
+.sponsor {
+    padding-right: 2px;
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 50px;
+    p{
+        margin-bottom: 30px;
+        padding-right: 70px;
+        font-size: 25px;
     }
-
-    .presentation_image {
-        display: flex;
-        width: 10%;
-        padding-right: 30px;
-    }
-
-    .sponsor {
-        padding-right: 2px;
-        width: 70%;
-        margin: 0 auto;
-
-    }
-
-    img {
-        width: 910px;
-        padding-left: 10px;
-    }
+    
 
     button {
-        position: relative;
-        display: block;
-        height: 30px;
-        width: 600px;
-        right: 340px;
-        top: 165px;
         color: white;
         background-color: #0061fe;
         border: 0;
-
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 17px;
+        margin-bottom: 20px;
+       
+    
     }
+}
+
+.box {
+    width:70%;
+    margin-top: 50px;
+    img{
+        max-width: 100%;
+    }
+   
+    
 }
 
 .page {
     margin-bottom: 160px;
+    background-color: #b4d0e6;
+    h1{
+        font-size: 120px;
+    }
 
 }
 
@@ -127,7 +121,7 @@ nav {
     padding-right: 20px;
 }
 
-.plan_payment{
+.plan_payment {
     width: 70%;
 
 
@@ -147,13 +141,17 @@ nav {
     }
 
 
-    .single, .team, .agency {
+    .single,
+    .team,
+    .agency {
         text-align: center;
         padding-top: 3px;
         border-bottom: 2px solid black;
     }
 
-    .professional, .advanced, .enterprise{
+    .professional,
+    .advanced,
+    .enterprise {
         margin-top: 20px;
         margin-left: 10px;
 
@@ -194,38 +192,51 @@ nav {
             color: blue;
         }
 
-        .info{
-            display:flex;
+        .info {
+            display: flex;
             margin-top: 30px;
             margin-bottom: 30px;
         }
-        .user{
+
+        .user {
             margin: 0;
         }
-        .person{
+
+        .person {
             margin-left: 0;
         }
-        .folder{
+
+        .folder {
             margin: 0;
         }
-        .storage_space{
+
+        .storage_space {
             margin: 0;
         }
-        .check{
+
+        .check {
             display: flex;
             margin-top: 20px;
             margin-bottom: 20px;
-            .icon{
+
+            .icon {
                 margin-left: 0;
                 margin-right: 0;
             }
-           
+
         }
-        .offline, .transfert, .storage_space, .member, .roles, .assistance, .customization{
+
+        .offline,
+        .transfert,
+        .storage_space,
+        .member,
+        .roles,
+        .assistance,
+        .customization {
             margin: 0;
-            
+
         }
-        
+
 
 
     }
@@ -255,49 +266,62 @@ nav {
     .sales_office {
         display: flex;
         width: 90%;
-      margin: 0 auto;
+        margin: 0 auto;
     }
 
     .support {
         margin-left: 3px;
-       h2{
-        padding-bottom: 20px;
-       }
-       p{
-       margin-top: 40px;
-       margin-bottom: 20px;
-       }
-       
-       
+
+        h2 {
+            padding-bottom: 20px;
+        }
+
+        p {
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+
+
 
 
     }
 
 }
-.contact{
-            button {
-            color: white;
-            background-color: #0061fe;
-            border: 0;
-            padding-left: 24px;
-            padding-right: 24px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            margin-bottom: 20px;
-            margin-top: 20px;
-            width: 280px;
-            
-        }
+
+.contact {
+    button {
+        color: white;
+        background-color: #0061fe;
+        border: 0;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        width: 280px;
+
     }
+}
 
 .partner_dropbox {
     display: flex;
-    width: 50%;
+    width: 60%;
     border: 1px solid black;
     margin-bottom: 50px;
+    
+    img{
+        width: 100%;
+    }
 
     .find_partner {
-        border: 1px solid black;
+       width:70%;
+       text-align: center;
+        padding-right: 20px;
+        p{
+        margin-top: 20px;
+       }
+    
     }
 
 }
@@ -324,29 +348,36 @@ nav {
         margin-bottom: 40px;
     }
 }
-footer{
+
+footer {
     background-color: black;
     width: 100%;
     height: 200px;
     color: white;
 
-    .final{
+    .final {
         width: 60%;
         justify-content: space-around;
         display: flex;
-    
-        ul{
-            
+
+        ul {
+
             list-style: none;
-           
+
         }
-        .dropbox, .product, .society, .support, .community{
+
+        .dropbox,
+        .product,
+        .society,
+        .support,
+        .community {
             width: 20%;
             margin: auto;
-           
+
             flex-direction: column;
         }
-        li{
+
+        li {
             margin-left: -40px;
         }
     }
