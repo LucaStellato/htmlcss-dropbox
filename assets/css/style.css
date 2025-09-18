@@ -48,6 +48,7 @@ nav {
 .container {
     width: 70%;
     margin: auto;
+    position: relative;
 
 
 
@@ -115,7 +116,8 @@ nav {
     margin-top: 50px;
 
     img {
-        max-width: 100%;
+        max-width: 70%;
+        position: absolute;
     }
 
 
@@ -416,12 +418,12 @@ nav {
 
     h2 {
         margin-bottom: 40px;
-        margin-top:50px;
-        margin-left: 110px;
+        margin-top:80px;
+        margin-left: 200px;
         font-size: 30px;
     }
     a{
-          margin-left: 110px;
+          margin-left: 200px;
     }
 }
 
