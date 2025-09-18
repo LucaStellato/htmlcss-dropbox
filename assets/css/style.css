@@ -204,7 +204,21 @@ nav {
         .person{
             margin-left: 0;
         }
-  
+        .folder{
+            margin: 0;
+        }
+        .storage_space{
+            margin: 0;
+        }
+        .check{
+            display: flex;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .transfert{
+            margin: 0;
+            
+        }
 
     }
 
